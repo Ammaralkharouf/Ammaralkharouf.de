@@ -1,0 +1,552 @@
+html * {
+    box-sizing: border-box;
+}
+
+body {
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+   
+.hdd{
+    text-decoration: none;
+}
+.clcl{
+    position: absolute;
+    top: 78%;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #ccc;
+    
+    font-family: sans-serif;
+}
+.overlay{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 0%;
+    background: rgba(0, 0, 0, 0.931);
+    overflow: hidden; 
+    z-index: 5;
+    transition: all 0.5s;
+      
+}
+
+.overlay .closeBtn{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    font-size: 50px;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    
+}
+.overlay a{
+    color: #ccc;
+}
+.overlay a:hover{
+    color: #fff;
+}
+.overlaycontent{
+    position: relative;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    
+    color: #ccc;
+    font-weight: bolder;
+    font-family: 'Archivo Black', sans-serif;
+}
+.overlaycontentt{
+    position: relative;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    
+    color: #ccc;
+    font-weight: bolder;
+    font-family: 'Archivo Black', sans-serif;
+}
+.aa{
+    text-decoration: none;
+    top: 35px;
+    position: relative;
+}
+.aa:hover{
+    color: #fff;
+}
+.overlaycontent:hover{
+    color: #fff;
+}
+header{
+    margin-top: 0px;
+    padding: 0px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+.menu{
+    display: block;
+    right: 50px;
+    position: absolute;
+    top: 35px;
+    
+    height: 70px;
+    line-height: 70px;
+    
+    
+}
+label{/*لك لما ما بكون أيليمنت مااااااااااااا بدووووووووو نقططططططططة .!.!.!.!.!. مشان الوقت مو مشان شي*/
+    margin: 0 40px 0 0;
+   right: 0px;
+    font-size: 26px;
+    position: absolute;
+    display: block;
+    width: 26px;
+    bottom: 35px;
+    display: none;
+}
+#toggle{
+    display: block;
+    right: 0px;
+    position: absolute;
+    bottom: 61px;
+    display: none;
+}
+
+ul{
+    width: 100%;
+    padding-left: 0;
+    
+}
+ul li{
+    clear: right;
+    text-align: center;
+    display:inline-block;
+    padding: 11px;
+    
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Catamaran', sans-serif;
+    color: aliceblue;
+    letter-spacing: 0.3px;
+    margin: 2px 2px;
+    line-height: 70px;
+
+    
+}
+ul li img{
+    width: 35x;
+    height:25px;
+    top: 3px;
+    position: relative;
+    
+}
+nav a{
+    text-decoration: none;
+    color: rgb(238, 238, 238);
+}
+li::after{
+    content:'';
+    display: block;
+    height: 2.8px;
+    width: 0px;
+    background: aliceblue;
+    transition: all 0.1s;
+    top: -27px;
+    position: relative;
+    
+}
+li :hover{
+    bottom: 3px;
+    position: relative;
+    transition: all 0.5s;
+    color: #fff;
+}
+li:hover::after{
+    content:'';
+    display: block;
+    height: 1px;
+    width: 79.5px;
+    background: aliceblue;
+    transition: .7s;
+    
+}
+
+li.igh:hover::after{
+    
+    width: 63.7px;
+    
+    
+}
+.igh:hover{
+    bottom: 3px;
+    position: relative;
+    transition: .1s;
+}
+li.ic:hover::after{
+    
+    width: 79.5px;
+   
+}
+
+li.if:hover::after{
+    
+    width: 87px;
+    
+}
+
+
+li.ia:hover::after{
+    
+    width: 56.4px;
+    
+}
+
+li.ig:hover::after{
+    
+    width: 25px;
+    
+}
+
+li.im:hover::after{
+    
+    width: 25px;
+    
+}
+
+
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    transition: all 0.1s;
+    
+    display: flex;
+    
+    
+    
+    
+    
+    
+}
+.bg{
+    position: fixed;
+    
+    display: inline-block;
+    right: 0px;
+    bottom: 70px;
+    
+    height: 60px;
+    
+    
+}
+.bn{
+    font-variant: small-caps;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    top: 11px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    
+}
+.scnt{
+    color:  #1E3C8B;
+    position: relative;
+ }
+ .frst{
+     color:  #1E3C8B;
+     position: relative;
+  }
+ .thrd{
+     color: #1E3C8B;
+     font-size: 33px;
+     font-weight: bold;
+     font-family: 'Amatic SC', cursive;
+     
+     position: relative;
+     padding: 0px 2px 0px 2px;
+     margin: 0;
+   }
+
+
+  .bg::after {
+    content:'';
+    display: inline-block;
+    height: 1px;
+    width: 90px;
+    background: #1d0053;
+    transition: .5s;
+    
+  
+    
+}
+.bg:hover::after{
+    background:red;
+    height: 1px;
+    width: 140px;
+    transition: .5s;
+}
+
+
+h1{
+    
+    font-size: 70px;
+    line-height: -3px;
+    letter-spacing: -3px;
+    font-family: 'Archivo Black', sans-serif;
+    max-width: 900px;
+    font-weight: bold;
+    text-transform: uppercase;
+    left: 158px;
+    position: fixed;
+    color: aliceblue;
+    top: 100px;
+    text-shadow: 10px 20px 33px rgba(0, 0, 0, 0.842);
+}
+
+.neon{
+    position: absolute;
+    top: 61px;
+    left: 65px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    transform: translate(-50%,-50%);
+    margin: 0px;
+    padding: 0 20px;
+    line-height: 2px;
+    color: #fff;
+    text-shadow: 0 0 20px #9100b6;
+    border: solid 1.5px #0f002a;
+    border-radius: 2px;
+    
+}
+.ann :hover{
+    border: solid 0px #0f002a;
+}
+.neon:after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+    z-index: -1;
+    color: #9100b6;
+    filter: blur(15px);
+   
+}
+.neon:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #9100b6;
+    z-index: -2;
+    opacity: .5;
+    filter: blur(40px);
+    
+}
+footer{
+    height: 0px;
+    
+}
+.foo{
+
+    
+    
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    font-family: sans-serif;
+    position: relative;
+    text-align: center;
+    bottom: 11px;
+    
+    
+}
+@media only screen and (max-width: 766px){
+    label {
+        
+   right: 0px;
+   top: 30px;
+   width: 16px;
+    font-size: 27px;
+    position: fixed;
+    display: block;
+    height: 10px;
+    bottom: 35px;
+    cursor: pointer;
+    
+    
+
+    }
+  
+    .menu{
+        width: 100%;
+        
+        height: auto;
+        z-index: 2;
+       
+    }
+    .ann{
+        z-index: 4;
+    }
+    .igh{
+        margin-right: 0;
+    }
+    ul{
+        margin: 0px;
+        padding: 0px;
+        
+        width: 100%;
+        right: 50px;
+        left: 50px;
+        background-color: rgba(19, 17, 17, 0.719);
+        position: fixed;
+        display: block;
+        top: 62px;
+        z-index: 3;
+    }
+    ul li{
+        display: none;
+        margin: 10px;
+        max-width: 100%;
+        
+        padding: 0;
+        top: 29px;
+        
+        
+        line-height: 30px;
+        position: relative;
+        
+        z-index: 3;
+        
+        
+    }
+    
+    
+    #toggle:checked + ul li{
+        display: block;
+        
+    }
+    #toggle:checked + ul{
+        height: 60%;
+        padding-bottom: 40px;
+    }
+   
+    h1{
+        z-index: 1;
+    }
+    .dropdown-menu {
+        display: none !important;
+    }
+    
+    
+    
+}
+@media only screen and (max-width: 1005px) {
+        
+    h1 {
+        
+        font-size: 50px;
+        max-width: 600px;
+        top: 165px;
+        
+        
+        
+        left: 138px;
+        
+        
+        
+        
+    }
+    ul{
+        right: -30px;
+        position: relative;
+        
+     }
+    ul li{
+        font-size: 18px;
+        
+        
+     }
+     ul li img{
+        width: 32x;
+        height:22px;
+        
+        
+    }
+    .aa{
+        font-size: 45px;
+    }
+    .hdd{
+        font-size: 50px;
+    }
+    }
+
+   
+    @media only screen and (max-width: 766px){
+        h1 {
+        
+            font-size: 35px;
+            max-width: 400px;
+            top: 165px;
+            
+            
+            
+            left: 100px;
+            
+            
+            
+            
+        }
+        .aa{
+            font-size: 28px;
+        }
+        .hdd{
+            font-size: 33px;
+        }
+        
+    }
+    @media only screen and (max-width: 470px){
+        .aa{
+            font-size: 20px;
+        }
+        .hdd{
+            font-size: 25px;
+        }
+
+    }
+    @media only screen and (max-width: 354px){
+        h1{
+            font-size: 23px;
+            max-width: 300px;
+            top: 185px;
+            
+            
+            left: 70px;
+            
+        }
+        .aa{
+            font-size: 18px;
+        }
+        .hdd{
+            font-size: 23px;
+        }
+        
+    }
+       
+     

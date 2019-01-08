@@ -1,0 +1,64 @@
+<div class="background-wrap">
+<video id="video-bg-elem" preload="auto" autoplay loop muted>
+<source src="Background_08.mov" type="video/mp4" > 
+    video not supported
+</video>
+</div>
+<span class="frst">d</span><span class="thrd">c</span><span class="scnt">i</span>
+.scnt{
+   color:  #1D3B8B;
+   position: relative;
+}
+.frst{
+    color:  #1D3B8B;
+    position: relative;
+ }
+.thrd{
+    color: #1D3B8B;
+    font-size: 33px;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    
+    position: relative;
+    padding: 0px 2px 0px 2px;
+    margin: 0;
+  }
+transform: translateX(-50%) translateY(-50%);
+<div class="content">
+left: -33.9px;
+height: 185px;
+top: -17px
+.video-container {
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+    top:200px;
+    left: 200px;
+}
+</div>
+.background-wrap{
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
